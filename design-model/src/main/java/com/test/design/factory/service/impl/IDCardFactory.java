@@ -21,7 +21,7 @@ public class IDCardFactory extends Factory {
     /**
      * ID卡注册地方
      */
-    private List list = new ArrayList();
+    private List<String> list = new ArrayList<>();
 
     @Override
     public Prodcut createProdcut(String owner) {
